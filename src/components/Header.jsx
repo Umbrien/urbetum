@@ -1,6 +1,6 @@
 function PageLink({ name, href}) {
   return (
-      <a className="text-xl text-white hover:text-gray-400 transition" href={href}>{name}</a>
+      <a className="text-xl text-slate-100 hover:text-slate-400 transition" href={href}>{name}</a>
   )
 }
 
